@@ -680,7 +680,7 @@ difficulty_type Blockchain::get_difficulty_for_next_block()
   auto height = m_db->height();
   // Reset network hashrate
   if (!m_testnet && (uint64_t)height >= MAINNET_HARDFORK_V4_HEIGHT && (uint64_t)height <= MAINNET_HARDFORK_V4_HEIGHT + (uint64_t)DIFFICULTY_BLOCKS_COUNT_V2){
-    return (difficulty_type) 4800000;
+    return (difficulty_type) 4800;
   }
 
   size_t difficult_block_count = get_current_hard_fork_version() < 2 ? DIFFICULTY_BLOCKS_COUNT : DIFFICULTY_BLOCKS_COUNT_V2;
