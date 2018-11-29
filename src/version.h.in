@@ -1,4 +1,4 @@
 #define XDC_VERSION_TAG "@VERSIONTAG@"
-#define XDC_VERSION "0.1.0.0"
+#define XDC_VERSION "0.1.1.0"
 #define XDC_RELEASE_NAME "Cyberjaya"
 #define XDC_VERSION_FULL XDC_VERSION "-" XDC_VERSION_TAG
