@@ -5037,9 +5037,9 @@ uint64_t wallet2::get_approximate_blockchain_height() const
 {
   if (m_testnet) return 0;
   // time of v3 fork
-  const time_t fork_time = 1525132800;
+  const time_t fork_time = 1533254400;
   // v3 fork block
-  const uint64_t fork_block = 700;
+  const uint64_t fork_block = 100;
   // avg seconds per block
   const int seconds_per_block = DIFFICULTY_TARGET;
   // Calculated blockchain height
